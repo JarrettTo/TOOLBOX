@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "TelegrafUltraBold";
+    src: url(../assets/PPTelegraf-UltraBold.otf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansProSemibold";
+    src: url(../assets/SourceSansPro-Semibold.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansProRegular";
+    src: url(../assets/SourceSansPro-Regular.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
