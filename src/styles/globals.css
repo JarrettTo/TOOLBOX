@@ -2,9 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Font Styles */
 @font-face {
     font-family: "TelegrafUltraBold";
     src: url(../assets/PPTelegraf-UltraBold.otf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansProBold";
+    src: url(../assets/SourceSansPro-Bold.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansProBlack";
+    src: url(../assets/SourceSansPro-Black.otf) format("opentype");
     font-weight: normal;
     font-style: normal;
 }

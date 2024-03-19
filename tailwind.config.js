@@ -15,6 +15,8 @@ module.exports = {
       },
       fontFamily: {
         TelegrafUltraBold: ["TelegrafUltraBold", "sans-serif"],
+        SourceSansProBold: ["SourceSansProBold", "sans-serif"],
+        SourceSansProBlack: ["SourceSansProBlack", "sans-serif"],
         SourceSansProSemibold: ["SourceSansProSemibold", "sans-serif"],
         SourceSansProRegular: ["SourceSansProRegular", "sans-serif"],
       },
@@ -22,6 +24,8 @@ module.exports = {
     extend: {
       fontFamily: {
         TelegrafUltraBold: ["Telegraf-UltraBold", "sans-serif"],
+        SourceSansProBold: ["SourceSansProBold", "sans-serif"],
+        SourceSansProBlack: ["SourceSansProBlack", "sans-serif"],
         SourceSansProSemibold: ["SourceSansProSemibold", "sans-serif"],
         SourceSansProRegular: ["SourceSansProRegular", "sans-serif"],
       },
@@ -32,6 +36,7 @@ module.exports = {
         'white-smoke': '#f8f8f8',
         'green': '#194c35',
         'orange': '#f4a434',
+        'orange-hover': '#E98D0C',
         'main-gradient-1': '#f1ba51',
         'main-gradient-2': '#ff8200',
         'sub-gradient-1': '#ff3131',
@@ -43,4 +48,4 @@ module.exports = {
     },
   },
   plugins: [require("daisyui")],
-}
+};
