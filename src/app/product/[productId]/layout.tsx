@@ -1,4 +1,5 @@
-import Navbar from "@/components/Navbar"
+import "@/styles/editor.css";
+import Navbar from "@/components/Searchbar"
 
 export default async function Layout({
                                          children,

@@ -1,0 +1,109 @@
+.searchdiv {
+    width: 45rem;
+    border-radius: 0.5rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    width: 120rem;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 80rem;
+}
+
+.product-display {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.side-pictures {
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.side-pic {
+    width: 5rem;
+    height: 5rem;
+    background-color: #F8F8F8;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.side-pic:hover {
+    background-color: #EEEDED;
+    cursor: pointer;
+}
+
+.selected {
+    border: 1px solid #F4A434;
+}
+
+.product {
+    width: 100%;
+}
+
+.main-picture {
+    background-color: #F8F8F8;
+    width: 30rem;
+    height: 30rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.product-main {
+    width: 70%;
+    height: 70%;
+}
+
+.ranking {
+    font-family: SourceSansProSemibold;
+    color: #202122;
+}
+
+hr {
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #202122;
+    margin-bottom: 1rem;
+}
+
+.product-name {
+    font-family: TelegrafUltraBold;
+    font-size: 25px;
+}
+
+.sale-tag {
+    background: linear-gradient(90deg, rgba(241,186,81,1) 0%, rgba(255,130,0,1) 100%);
+    font-family: SourceSansProBold;
+    color: #202122;
+    width: fit-content;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+}
+
+.brand-name {
+    font-family: SourceSansProSemibold;
+    font-size: 25px;
+    color: #F4A434;
+}
