@@ -11,14 +11,14 @@
 .left {
     display: flex;
     flex-direction: column;
-    margin-right: 5rem;
+    margin-right: 4rem;
     width: 120rem;
 }
 
 .right {
     display: flex;
     flex-direction: column;
-    width: 80rem;
+    width: 90rem;
 }
 
 .product-display {
@@ -49,10 +49,6 @@
 .side-pic:hover {
     background-color: #EEEDED;
     cursor: pointer;
-}
-
-.selected {
-    border: 1px solid #F4A434;
 }
 
 .product {
@@ -88,7 +84,7 @@ hr {
     margin-bottom: 1rem;
 }
 
-.product-name {
+.bold-title {
     font-family: TelegrafUltraBold;
     font-size: 25px;
 }
@@ -107,3 +103,243 @@ hr {
     font-size: 25px;
     color: #F4A434;
 }
+
+.contact-buttons {
+    margin-bottom: 3rem;
+}
+
+.choice-text {
+    font-family: SourceSansProSemiBold;
+    color: #6A6666;
+    font-size: 20px;
+}
+
+.choice-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.choice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: SourceSansProRegular;
+    background-color: #F8F8F8;
+    border: 1px solid #6A6666;
+    width: 5rem;
+    height: 2rem;
+    margin-right: 1rem;
+    border-radius: 0.3rem;
+}
+
+.choice:hover {
+    background-color: #EEEDED;
+    cursor: pointer;
+}
+
+.price-area, .quantity-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.price {
+    margin-left: 3rem;
+    padding: 0;
+    font-family: SourceSansProSemiBold;
+    color: #F4A434;
+    font-size: 40px;
+}
+
+.previous-price {
+    font-family: SourceSansProSemiBold;
+    color: #6A6666;
+    font-size: 20px;
+    margin-left: 1rem;
+}
+
+.quantity {
+    margin-left: 1.5rem;
+    display: flex;
+    border: 1px solid #6A6666;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .quantity > button {
+    border: 1px solid #6A6666;
+    background-color: #F8F8F8;
+    font-family: SourceSansProSemiBold;
+    color: #6A6666;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    width: 30px;
+    height: auto;
+    text-align: center;
+    transition: background-color 0.2s;
+  }
+  
+  .quantity button:hover {
+    background-color: #EEEDED;
+  }
+  
+  .input-box {
+    width: 40px;
+    text-align: center;
+    border-left: 1px solid #6A6666;
+    border-right: 1px solid #6A6666;
+    padding: 8px 10px;
+    font-size: 16px;
+    outline: none;
+    font-family: SourceSansProSemiBold;
+    color: #6A6666;
+    background-color: #F8F8F8;
+  }
+  
+  .input-box::-webkit-inner-spin-button,
+  .input-box::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .description-list {
+    padding-left: 2rem;
+    list-style: disc;
+    font-family: SourceSansProSemiBold;
+    color: #202122;
+  }
+
+  .description-list > li {
+    padding-bottom: 0.5rem;
+  }
+
+  .about-area {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .seller-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .seller-name {
+    font-family: SourceSansProBold;
+    color: #202122;
+    margin-left: 1rem;
+    font-size: 22px;
+  }
+
+  .seller-details{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+  }
+
+  .detail-grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    grid-gap: 1rem 5px;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .seller-subtitle {
+    font-family: SourceSansProSemiBold;
+    color: #6A6666;
+    font-size: 14px;
+  }
+
+  .seller-value   {
+    font-family: SourceSansProSemiBold;
+    color: #202122;
+    font-size: 20px;
+    margin-left: 1rem;
+    text-align: left;
+  }
+
+  .rating {
+    display: grid;
+    grid-template-columns: 45px 100px;
+    align-items: center;
+  }
+
+  .max-rating {
+    font-family: SourceSansProSemiBold;
+    color: #202122;
+    font-size: 20px;
+  }
+
+  .selection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  .rating-choice {
+    background-color: #F8F8F8;
+    border: 1px solid #202122;
+    width: fit-content;
+    padding: 5px 13px;
+    border-radius: 20px;
+    font-family: SourceSansProSemiBold;
+    color: #202122;
+    margin-right: 10px;
+  }
+
+  .rating-choice:hover {
+    background-color: #EEEDED;
+    cursor: pointer;
+  }
+
+ .selected {
+        border: 1px solid #F4A434;
+  }
+
+  .user-review {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .review-body {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .username {
+    font-family: SourceSansProSemiBold;
+    color: #202122;
+    font-size: 20px;
+  }
+
+  .stars {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .review-date {
+    font-family: SourceSansProRegular;
+    color: #6A6666;
+    font-size: 15px;
+  }
+
+  .review-text {
+    font-family: SourceSansProRegular;
+    color: #202122;
+    font-size: 15px;
+    margin: 10px 0;
+  }
+
+  .review-pic > img {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+  }
